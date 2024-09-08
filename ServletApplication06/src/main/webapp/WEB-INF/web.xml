@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app>
+<welcome-file-servlet>
+<welcome-file>home.html</welcome-file>
+<welcome-file>login.html</welcome-file>
+<welcome-file>register.html</welcome-file>
+</welcome-file-servlet>
+</web-app>

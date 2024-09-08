@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="ISO-8859-1">
+	<title>Insert title here</title>
+</head>
+
+<body>
+	<div>
+		<h1>ORDER PIZZA HERE</h1>
+		<form action="order" method="post">
+			<table >
+				<tr>
+					<td>Enter Name:<input type="text" name="name"></td>
+				</tr>
+				<tr>
+					<td>Select The Crust:</td>
+					<tr>
+						<td><select>
+						<option name="crust" value="deepCrust">deep crust</option>
+						<option name="crust" value="lowCrust">low crust</option>
+						<option name="crust" value="midCrust">mid crust</option>
+					</select></td>
+					</tr>
+				</tr>
+
+				<tr>
+					<td>Toppings:</td>
+				</tr>
+				<tr>
+					<td><input type="checkbox" value="toppings" name="peas">peas</td>
+				</tr>
+				<tr>
+					<td><input type="checkbox" value="toppings" name="paneer">paneer</td>
+				</tr>
+				<tr>
+					<td><input type="checkbox" value="toppings" name="redPeppers">redPeppers</td>
+				</tr>
+				<tr>
+					<td><input type="checkbox" value="toppings" name="pineapple">pineapple</td>
+				</tr>
+				<tr>
+					<td><input type="checkbox" value="toppings" name="onion">onion</td>
+
+				</tr>
+				<tr>
+					<td><input type="checkbox" value="toppings" name="tomato">tomato</td>
+				</tr>
+				<tr>
+					<td>Appitiezer:</td>
+				</tr>
+				<tr>
+					<td><input type="radio" name="apt" value="garlicBread">Garlic Bread</td>
+				</tr>
+				<tr>
+					<td><input type="radio" name="apt" value="cheaseGarlicBread">chease Garlic Bread</td>
+				</tr>
+				<tr>
+					<td><input type="radio" name="apt" value="vegSoup">veg Soup</td>
+				</tr>
+				<tr>
+					<td><input type="radio" name="apt" value="veg Sandwich">veg Sandwich</td>
+				</tr>
+
+				<tr>
+					<td>Address:<input type="text" name="address"></td>
+				</tr>
+				<tr>
+					<td>Credit Card:</td>
+				</tr>
+				<tr>
+					<td><input type="radio" name="creditCard" value="visa">Visa</td>
+				</tr>
+					<tr>
+					<td><input type="radio" name="creditCard" value="masterCard">Master Card</td>
+					</tr>
+					<tr>
+					<td><input type="radio" name="creditCard" value="americanExpress">American Express</td>
+				</tr>
+				<tr>
+					<td>Credit Card Number:</td>
+				</tr>
+				<tr>
+					<td>credit card number:<input type="password" name="cardNumber"></td>
+				</tr>
+				<tr>
+					<td>Confirm credit card number:<input type="password" name="confirmNumber"></td>
+				</tr>
+				<tr>
+					<td><input type="submit" value="orderPizza"></td>
+				</tr>
+
+			</table>
+		</form>
+	</div>
+
+</body>
+
+</html>
